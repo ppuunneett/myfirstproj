@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro) ;
+
+/*what we are selecting*/
+h1{
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-top: 5px solid;
+    font-size: 40px;
+}
+
+body{
+    background-color: lightpink;
+    color: #2E1263;
+    font-family: "Source Code Pro";
+    font-weight: lighter;
+
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    background-color: lightpink;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #2E1263;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    outline: none;
+}
+button:hover {
+    transition: 0.3s;
+    background-color:#2E1263 ;
+    color:lightpink ;
+    text-decoration: underline;
+}
+p{
+    font-size: 18px;
+}
